@@ -9,6 +9,8 @@ namespace lesson6
 {
     public class Car
     {
+        #region Constractors
+
         public Car()
         {
             Console.WriteLine("From car Without Parameters");
@@ -22,9 +24,11 @@ namespace lesson6
         public Car(double y)
         {
             Console.WriteLine("From double const");
+
         }
+        #endregion
 
-
+        #region Feilds
         private string[] item = new string[5];
         public string this[int x, int y]
         {
@@ -36,5 +40,13 @@ namespace lesson6
         protected int weight { get; set; }
         protected string engine { get; set; }
         protected int capacity { get; set; }
+        #endregion
+
+        #region Methods
+        public virtual void Start(int oriant, int[] pasenger, params int[] speed)
+        {
+
+        }
+        #endregion
     }
 }
