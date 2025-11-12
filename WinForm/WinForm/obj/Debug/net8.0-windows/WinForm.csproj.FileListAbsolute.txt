@@ -1,0 +1,2 @@
+C:\Users\Student\source\repos\WinForm\WinForm\bin\Debug\net8.0-windows\WinForm.exe
+C:\Users\Student\source\repos\WinForm\WinForm\bin\Debug\net8.0-windows\WinForm.dll
